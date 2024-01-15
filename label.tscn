@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://8m6u2mcveaiu"]
+
+[node name="Node3D" type="Node3D"]
+transform = Transform3D(0.699913, -0.714228, 0, 0.714228, 0.699913, 0, 0, 0, 1, -2.13423, 0.782224, 0)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 49.0
+offset_top = 172.0
+offset_right = 292.0
+offset_bottom = 225.0
+text = "Hello World"
