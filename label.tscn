@@ -1,11 +1,10 @@
 [gd_scene format=3 uid="uid://8m6u2mcveaiu"]
 
-[node name="Control1" type="Node3D"]
-transform = Transform3D(-0.698212, 0.712492, -0.0696869, 0.714228, 0.699913, -2.69623e-08, 0.0487747, -0.0497723, -0.997569, -10.7835, 0.782224, -8.89878)
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
 
-[node name="Label" type="Label" parent="."]
-offset_left = 30.0
-offset_top = -130.0
-offset_right = 273.0
-offset_bottom = -77.0
-text = "testing"
+[node name="Control" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
