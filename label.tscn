@@ -11,9 +11,9 @@ offset_bottom = 40.0
 
 [node name="TextEdit" type="TextEdit" parent="."]
 layout_mode = 0
-offset_left = 4120.0
-offset_top = 1026.0
-offset_right = 11611.0
-offset_bottom = 2232.0
-text = "test2"
+offset_left = -2285.0
+offset_top = -1632.0
+offset_right = 2470.0
+offset_bottom = 1926.0
+text = "bg"
 placeholder_text = "ihuhj"
