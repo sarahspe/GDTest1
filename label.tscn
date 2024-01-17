@@ -8,3 +8,12 @@ anchors_preset = 0
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 0
+offset_left = 4120.0
+offset_top = 1026.0
+offset_right = 11611.0
+offset_bottom = 2232.0
+text = "test2"
+placeholder_text = "ihuhj"
