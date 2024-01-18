@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bqbh51i2lktlk"]
+
+[ext_resource type="Script" path="res://character_body_2d.gd" id="1_ehpe8"]
+[ext_resource type="Texture2D" uid="uid://cunye1evbtew" path="res://Sprites/PNG/scuba.png" id="1_sbh1s"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_nucuy"]
+radius = 25.0
+height = 54.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_ehpe8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(16, -2)
+scale = Vector2(0.281002, 0.251965)
+texture = ExtResource("1_sbh1s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(16, 0)
+shape = SubResource("CapsuleShape2D_nucuy")
