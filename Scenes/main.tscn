@@ -279,8 +279,8 @@ layer_0/tile_data = PackedInt32Array(0, 131072, 3, 65536, 131072, 3, 131072, 131
 script = ExtResource("2_fmqhv")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
-position = Vector2(442, 413)
-scale = Vector2(0.5, 0.440252)
+position = Vector2(422.5, 390)
+scale = Vector2(0.345238, 0.295598)
 texture = ExtResource("2_1tyct")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
